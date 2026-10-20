@@ -1,0 +1,89 @@
+{
+    "name": "contenir-extension/consent",
+    "description": "The Consent add-on for Contenir CMS: a cookie banner and preferences, regional modes, Global Privacy Control, Google Consent Mode v2 and script gating for every add-on's scripts.",
+    "type": "contenir-extension",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "contenir",
+        "contenir-extension",
+        "consent",
+        "cookie-consent",
+        "consent-mode",
+        "gdpr"
+    ],
+    "support": {
+        "issues": "https://github.com/contenir-extension/consent/issues",
+        "source": "https://github.com/contenir-extension/consent"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/contenir/contenir-consent"
+        }
+    ],
+    "require": {
+        "php": "~8.3.0 || ~8.4.0 || ~8.5.0",
+        "contenir/consent": "0.1.x-dev",
+        "contenir/extension-api": "^0.5"
+    },
+    "require-dev": {
+        "contenir/contenir-qa-tools": "0.1.x-dev",
+        "infection/infection": "^0.34.1",
+        "nyholm/psr7": "^1.8.2",
+        "phpunit/phpunit": "^11.5.42"
+    },
+    "autoload": {
+        "psr-4": {
+            "Contenir\\Extension\\Consent\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Contenir\\Extension\\Consent\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "boundary": "extension-boundary",
+        "check": [
+            "@cs-check",
+            "@static-analysis",
+            "@test",
+            "@test-integration",
+            "@mutation-test"
+        ],
+        "cs-check": [
+            "mago format --check",
+            "mago lint",
+            "mago guard"
+        ],
+        "cs-fix": [
+            "mago format",
+            "mago lint --fix"
+        ],
+        "static-analysis": "mago analyze",
+        "test": "phpunit --colors=always --testsuite unit",
+        "test-integration": "phpunit --colors=always --testsuite integration",
+        "test-coverage": "phpunit --colors=always --coverage-clover clover.xml",
+        "mutation-test": "infection"
+    },
+    "extra": {
+        "contenir": {
+            "handle": "consent",
+            "extension": "Contenir\\Extension\\Consent\\ConsentExtension"
+        },
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.3.99"
+        },
+        "sort-packages": true,
+        "allow-plugins": {
+            "infection/extension-installer": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
