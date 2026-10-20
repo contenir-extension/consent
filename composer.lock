@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5cbde02e9478aac58a877a66ce93a36",
+    "content-hash": "6bcb71090745c2a88f96f37fb0a348fc",
     "packages": [
         {
             "name": "contenir/consent",
