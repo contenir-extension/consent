@@ -8,6 +8,9 @@ adheres to [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
+- Requires the library by its new name, `contenir/contenir-consent`, where it was `contenir/consent`, after Simon's
+  rule that libraries are named after their repositories. The add-on keeps its name, `contenir-extension/consent`.
+
 - Allows contenir/extension-api 0.6, whose changes (services add-ons provide, and their context in settings
   operations) are additions the add-on doesn't use yet, so the CMS can install it beside the Cloudflare add-on.
 

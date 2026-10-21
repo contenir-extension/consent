@@ -23,7 +23,7 @@ use Contenir\Extension\Consent\Handler\AskEveryoneAgain;
 
 /**
  * The add-on's settings section, Cookie Consent under Site. Each field
- * stores its value under the key contenir/consent reads, so the site
+ * stores its value under the key contenir/contenir-consent reads, so the site
  * adapters read the same settings the CMS saves.
  *
  * @api

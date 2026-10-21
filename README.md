@@ -38,7 +38,7 @@ revision, so every visitor's stored choice stops counting and the banner asks ag
 section (`extension.consent.ask-again`).
 
 **On public pages**, through a site adapter such as
-[contenir/consent-laminas-mvc](https://github.com/contenir/contenir-consent-laminas-mvc):
+[contenir/contenir-consent-laminas-mvc](https://github.com/contenir/contenir-consent-laminas-mvc):
 
 - the banner, on [vanilla-cookieconsent](https://cookieconsent.orestbida.com) v3, in the bottom right, with Accept
   all, Reject all and Manage preferences equally prominent;
@@ -51,7 +51,7 @@ section (`extension.consent.ask-again`).
 - Global Privacy Control keeping marketing off by default, and recorded with the choice;
 - choices kept for 182 days, and `consentPreferencesLink()` for the footer.
 
-[contenir/consent](https://github.com/contenir/contenir-consent) describes all of it.
+[contenir/contenir-consent](https://github.com/contenir/contenir-consent) describes all of it.
 
 **With the Tracking add-on**, the Tracking adapter holds the tags back for the banner, whatever Tracking's "Wait for
 consent" says, and Tracking's consent check passes (TRK-1).

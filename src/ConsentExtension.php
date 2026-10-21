@@ -15,7 +15,7 @@ use Override;
  * The Consent add-on: a settings section for the cookie banner, field types
  * that check its link and header as they are saved, and a screen that asks
  * every visitor again. Sites draw the banner with a site adapter, such as
- * contenir/consent-laminas-mvc, from the settings this section saves.
+ * contenir/contenir-consent-laminas-mvc, from the settings this section saves.
  *
  * @api
  */
