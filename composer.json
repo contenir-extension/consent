@@ -15,16 +15,10 @@
         "issues": "https://github.com/contenir-extension/consent/issues",
         "source": "https://github.com/contenir-extension/consent"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/contenir/contenir-consent"
-        }
-    ],
     "require": {
         "php": "~8.3.0 || ~8.4.0 || ~8.5.0",
-        "contenir/contenir-consent": "0.1.x-dev",
-        "contenir/extension-api": "^0.5 || ^0.6"
+        "contenir/contenir-consent": "^0.1",
+        "contenir/contenir-extension-api": "^0.6.1"
     },
     "require-dev": {
         "contenir/contenir-qa-tools": "0.1.x-dev",
