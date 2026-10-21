@@ -6,6 +6,11 @@ adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased] - 2026-10-21
 
+### Changed
+
+- Allows contenir/extension-api 0.6, whose changes (services add-ons provide, and their context in settings
+  operations) are additions the add-on doesn't use yet, so the CMS can install it beside the Cloudflare add-on.
+
 ### Added
 
 - The Cookie Consent settings section (Site Settings > Site): the banner's heading and text, the privacy policy

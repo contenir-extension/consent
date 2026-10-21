@@ -24,7 +24,7 @@
     "require": {
         "php": "~8.3.0 || ~8.4.0 || ~8.5.0",
         "contenir/consent": "0.1.x-dev",
-        "contenir/extension-api": "^0.5"
+        "contenir/extension-api": "^0.5 || ^0.6"
     },
     "require-dev": {
         "contenir/contenir-qa-tools": "0.1.x-dev",
