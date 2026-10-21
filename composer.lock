@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6bcb71090745c2a88f96f37fb0a348fc",
+    "content-hash": "8c33e38f768a0e14cde6b2ecf2df775f",
     "packages": [
         {
-            "name": "contenir/consent",
+            "name": "contenir/contenir-consent",
             "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "git@github.com:contenir/contenir-consent.git",
-                "reference": "66fe77787ee975b6f8d92c09ae3cf3b4d58fdc92"
+                "reference": "cc29c061397be09f0eab07f309262b317b27fba3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contenir/contenir-consent/zipball/66fe77787ee975b6f8d92c09ae3cf3b4d58fdc92",
-                "reference": "66fe77787ee975b6f8d92c09ae3cf3b4d58fdc92",
+                "url": "https://api.github.com/repos/contenir/contenir-consent/zipball/cc29c061397be09f0eab07f309262b317b27fba3",
+                "reference": "cc29c061397be09f0eab07f309262b317b27fba3",
                 "shasum": ""
             },
             "require": {
@@ -94,7 +94,7 @@
                 "issues": "https://github.com/contenir/contenir-consent/issues",
                 "source": "https://github.com/contenir/contenir-consent"
             },
-            "time": "2026-10-20T23:26:19+00:00"
+            "time": "2026-10-21T00:59:37+00:00"
         },
         {
             "name": "contenir/extension-api",
@@ -4688,7 +4688,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "contenir/consent": 20,
+        "contenir/contenir-consent": 20,
         "contenir/contenir-qa-tools": 20
     },
     "prefer-stable": true,
